@@ -11,18 +11,18 @@ datasource db {
 }
 
 model User {
-  id      String    @id @default(uuid())
-  name    String
-  bookings Booking[]
+  id           String    @id @default(uuid())
+  name         String
+  bookings     Booking[]
 }
 
 model Barbershop {
-  id       String    @id @default(uuid())
-  name     String
-  adress   String
-  imageUrl String
-  services  Service[]
-  bookings  Booking[]
+  id           String    @id @default(uuid())
+  name         String
+  address       String
+  imageUrl     String
+  services     Service[]
+  bookings     Booking[]
 }
 
 model Service {
