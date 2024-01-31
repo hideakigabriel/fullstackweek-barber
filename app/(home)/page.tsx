@@ -41,7 +41,7 @@ export default async function Home() {
             <BarbershopItem key={barbershop.id} barbershop={barbershop} />
           ))}
         </div>
-      </div>{" "}
+      </div>
 
       <div className="mt-6 mb-[4.5rem]">
         <h2 className="px-5 text-xs mb-3 uppercase text-gray-400 font-bold">
