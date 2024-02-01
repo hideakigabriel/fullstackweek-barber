@@ -34,6 +34,7 @@ const BarbershopDetailsPage = async ({
 
   return (
     <div>
+      
       <BarberInfo barbershop={barbershop} />
 
       <div className="flex flex-col gap-4 px-5 py-6">
